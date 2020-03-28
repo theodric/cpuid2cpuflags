@@ -8,4 +8,6 @@ automake --force-missing --add-missing
 autoconf
 ./configure
 CFLAGS="-Ofast" make -j`nproc`
+echo
 echo Now run 'make install' if you want to install it
+echo
