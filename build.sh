@@ -1,5 +1,5 @@
 #!/bin/bash
-apt update;apt -y install shtool
+apt update;apt -y install shtool libtool libtool-bin
 mkdir build-aux m4
 libtoolize --force
 aclocal
